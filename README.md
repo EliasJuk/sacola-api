@@ -9,3 +9,9 @@
 Para gerar a estrtura do projeto utilizaremos o [spring initializr](https://start.spring.io/)
 
 <img src="readme/spring_initializr.png"></img>
+
+# BANCO DE DADOS
+
+- http://localhost:8081/h2-console/
+
+<img src="readme/database_conn.png"></img>

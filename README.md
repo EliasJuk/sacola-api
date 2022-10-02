@@ -15,4 +15,4 @@ Para gerar a estrtura do projeto utilizaremos o [spring initializr](https://star
 - http://localhost:8081/h2-console/
 
 <img src="readme/database_conn.png"></img>
-<img src="readme/tabelas.png"></img>
+<img src="readme/tabelas.png" width="300px"></img>

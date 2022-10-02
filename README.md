@@ -1,3 +1,8 @@
+<div align="center">
+    <img src="readme/logo.png" width="350" ></img>
+    <img src="readme/ifood_dev_week.png"></img>
+</div>
+
 <h1 align="center">Sacola API</h1>
 
 <h3 align="center">Arquitetura de uma Aplicação Spring Boot</h3>

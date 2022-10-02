@@ -16,7 +16,7 @@ import java.util.List;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @NoArgsConstructor
 
-public class Restaurente {
+public class Restaurante {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

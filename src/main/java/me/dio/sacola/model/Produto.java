@@ -28,5 +28,5 @@ public class Produto {
 
     @ManyToOne
     @JsonIgnore
-    private Restaurente restaurente;
+    private Restaurante restaurante;
 }

@@ -1,9 +1,17 @@
 package me.dio.sacola.model;
 
-import javax.persistence.Embedded;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
+
+@AllArgsConstructor
+@Builder //DESIGNER PATTERN
+@Data    //GETTERS AND SETTERS
+@Embeddable
+@NoArgsConstructor
 
 public class Cliente {
     @Id

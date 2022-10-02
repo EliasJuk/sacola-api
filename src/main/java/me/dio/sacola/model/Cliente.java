@@ -1,5 +1,6 @@
 package me.dio.sacola.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,7 +11,8 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Builder //DESIGNER PATTERN
 @Data    //GETTERS AND SETTERS
-@Embeddable
+@Entity
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @NoArgsConstructor
 
 public class Cliente {
